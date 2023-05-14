@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD2026F42A10E00600DFEB1E /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026EE2A10E00600DFEB1E /* GreetingPresenter.swift */; };
-		DD2026F52A10E00600DFEB1E /* GreetingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026EF2A10E00600DFEB1E /* GreetingWorker.swift */; };
+		DD2026F52A10E00600DFEB1E /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026EF2A10E00600DFEB1E /* GreetingConfigurator.swift */; };
 		DD2026F62A10E00700DFEB1E /* GreetingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F02A10E00600DFEB1E /* GreetingRouter.swift */; };
 		DD2026F72A10E00700DFEB1E /* GreetingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F12A10E00600DFEB1E /* GreetingModels.swift */; };
 		DD2026F82A10E00700DFEB1E /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F22A10E00600DFEB1E /* GreetingViewController.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		DD2026EE2A10E00600DFEB1E /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
-		DD2026EF2A10E00600DFEB1E /* GreetingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingWorker.swift; sourceTree = "<group>"; };
+		DD2026EF2A10E00600DFEB1E /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
 		DD2026F02A10E00600DFEB1E /* GreetingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingRouter.swift; sourceTree = "<group>"; };
 		DD2026F12A10E00600DFEB1E /* GreetingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingModels.swift; sourceTree = "<group>"; };
 		DD2026F22A10E00600DFEB1E /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 				DD2026F22A10E00600DFEB1E /* GreetingViewController.swift */,
 				DD2026F32A10E00600DFEB1E /* GreetingInteractor.swift */,
 				DD2026EE2A10E00600DFEB1E /* GreetingPresenter.swift */,
-				DD2026EF2A10E00600DFEB1E /* GreetingWorker.swift */,
+				DD2026EF2A10E00600DFEB1E /* GreetingConfigurator.swift */,
 				DD2026F02A10E00600DFEB1E /* GreetingRouter.swift */,
 				DD2026F12A10E00600DFEB1E /* GreetingModels.swift */,
 			);
@@ -168,7 +168,7 @@
 				DD2026F72A10E00700DFEB1E /* GreetingModels.swift in Sources */,
 				DD8ACA1E2A101A1F00100F78 /* SceneDelegate.swift in Sources */,
 				DD2026F42A10E00600DFEB1E /* GreetingPresenter.swift in Sources */,
-				DD2026F52A10E00600DFEB1E /* GreetingWorker.swift in Sources */,
+				DD2026F52A10E00600DFEB1E /* GreetingConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

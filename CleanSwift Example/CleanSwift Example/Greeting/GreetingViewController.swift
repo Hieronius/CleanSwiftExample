@@ -18,7 +18,7 @@ protocol GreetingDisplayLogic: class {
 
 class GreetingViewController: UIViewController, GreetingDisplayLogic {
     
-    //@IBOutlet private var nameTextField: UITextField!
+    @IBOutlet private var GreetingLabel: UITextField!
     
     var interactor: GreetingBusinessLogic?
     var router: (NSObjectProtocol & GreetingRoutingLogic & GreetingDataPassing)?
@@ -56,25 +56,17 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     // MARK: Do something
     
     func doSomething() {
-        let request = Greeting.ShowGreeting.Request()
-        interactor?.doSomething(request: request)
+        let request = GreetingRequest()
+        interactor?.ShowGreeting(request: request)
     }
     
-    func displayGreeting(viewModel: Greeting.ShowGreeting.ViewModel) {
-        //nameTextField.text = viewModel.name
+    func displayGreeting(viewModel: GreetingViewModel) {
+        GreetingLabel.text = viewModel.name
+    }
+    
+    @IBAction func showGreetingPressed() {
+        
     }
     // MARK: Setup
     
-    private func setup() {
-        let viewController = self
-        let interactor = GreetingInteractor()
-        let presenter = GreetingPresenter()
-        let router = GreetingRouter()
-        viewController.interactor = interactor
-        viewController.router = router
-        interactor.presenter = presenter
-        presenter.viewController = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
-    }
 }
