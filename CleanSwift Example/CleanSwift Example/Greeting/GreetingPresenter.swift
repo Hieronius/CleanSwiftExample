@@ -13,7 +13,7 @@
 import UIKit
 
 protocol GreetingPresentationLogic {
-    func presentSomething(response: Greeting.Something.Response)
+    func presentSomething(response: Greeting.ShowGreeting.Response)
 }
 
 class GreetingPresenter: GreetingPresentationLogic {
@@ -22,8 +22,8 @@ class GreetingPresenter: GreetingPresentationLogic {
     
     // MARK: Do something
     
-    func presentSomething(response: Greeting.Something.Response) {
-        let viewModel = Greeting.Something.ViewModel()
-        viewController?.displaySomething(viewModel: viewModel)
+    func presentSomething(response: Greeting.ShowGreeting.Response) {
+        let viewModel = Greeting.ShowGreeting.ViewModel()
+        viewController?.displayGreeting(viewModel: viewModel)
     }
 }

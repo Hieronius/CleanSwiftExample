@@ -12,17 +12,27 @@
 
 import UIKit
 
+typealias GreetingViewModel = Greeting.ShowGreeting.ViewModel
+typealias GreetingResponse = Greeting.ShowGreeting.Response
+typealias GreetingRequest = Greeting.ShowGreeting.Request
+
+
 enum Greeting {
     // MARK: Use cases
     
-    enum Something {
+    enum ShowGreeting {
+        // broker between ViewController and Interactor
         struct Request {
         }
-        
+        // broker between Interactor and Presenter
         struct Response {
+            let name: String
+            let surname: String
         }
-        
+        // broker between Presenter and ViewController
         struct ViewModel {
+            let greeting: String
+            
         }
     }
 }

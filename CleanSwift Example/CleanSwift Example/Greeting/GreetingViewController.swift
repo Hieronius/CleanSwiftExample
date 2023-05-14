@@ -13,7 +13,7 @@
 import UIKit
 
 protocol GreetingDisplayLogic: class {
-    func displaySomething(viewModel: Greeting.Something.ViewModel)
+    func displayGreeting(viewModel: GreetingViewModel)
 }
 
 class GreetingViewController: UIViewController, GreetingDisplayLogic {
@@ -56,11 +56,11 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     // MARK: Do something
     
     func doSomething() {
-        let request = Greeting.Something.Request()
+        let request = Greeting.ShowGreeting.Request()
         interactor?.doSomething(request: request)
     }
     
-    func displaySomething(viewModel: Greeting.Something.ViewModel) {
+    func displayGreeting(viewModel: Greeting.ShowGreeting.ViewModel) {
         //nameTextField.text = viewModel.name
     }
     // MARK: Setup
