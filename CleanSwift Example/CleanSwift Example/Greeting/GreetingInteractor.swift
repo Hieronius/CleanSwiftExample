@@ -13,26 +13,27 @@
 import UIKit
 
 protocol GreetingBusinessLogic {
-    func ShowGreeting(request: Greeting.ShowGreeting.Request)
+    func ShowGreeting(request: GreetingRequest)
 }
 
 protocol GreetingDataStore {
-    //var name: String { get set }
+    var person: Person? { get }
 }
 
 class GreetingInteractor: GreetingBusinessLogic, GreetingDataStore {
     
     var presenter: GreetingPresentationLogic?
-    var worker: GreetingWorker?
+    var person: Person?
+    // var worker: GreetingWorker?
     //var name: String = ""
     
     // MARK: Do something
     
     func ShowGreeting(request: Greeting.ShowGreeting.Request) {
-        worker = GreetingWorker()
-        worker?.doSomeWork()
-        
-        let response = Greeting.ShowGreeting.Response()
-        presenter?.presentSomething(response: response)
+        person = Person(name: "Tim", surname: "Cook")
+        let name = person?.name ?? ""
+        let surname = person?.surname ?? ""
+        let response = GreetingResponse(name: name, surname: surname)
+        presenter?.presentGreeting(response: response)
     }
 }

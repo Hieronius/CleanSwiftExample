@@ -13,6 +13,7 @@
 		DD2026F72A10E00700DFEB1E /* GreetingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F12A10E00600DFEB1E /* GreetingModels.swift */; };
 		DD2026F82A10E00700DFEB1E /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F22A10E00600DFEB1E /* GreetingViewController.swift */; };
 		DD2026F92A10E00700DFEB1E /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026F32A10E00600DFEB1E /* GreetingInteractor.swift */; };
+		DD2026FB2A10EB6A00DFEB1E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2026FA2A10EB6A00DFEB1E /* Model.swift */; };
 		DD8ACA1C2A101A1F00100F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8ACA1B2A101A1F00100F78 /* AppDelegate.swift */; };
 		DD8ACA1E2A101A1F00100F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8ACA1D2A101A1F00100F78 /* SceneDelegate.swift */; };
 		DD8ACA232A101A1F00100F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8ACA212A101A1F00100F78 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		DD2026F12A10E00600DFEB1E /* GreetingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingModels.swift; sourceTree = "<group>"; };
 		DD2026F22A10E00600DFEB1E /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		DD2026F32A10E00600DFEB1E /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		DD2026FA2A10EB6A00DFEB1E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DD8ACA182A101A1F00100F78 /* CleanSwift Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanSwift Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8ACA1B2A101A1F00100F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8ACA1D2A101A1F00100F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				DD8ACA1B2A101A1F00100F78 /* AppDelegate.swift */,
 				DD8ACA1D2A101A1F00100F78 /* SceneDelegate.swift */,
+				DD2026FA2A10EB6A00DFEB1E /* Model.swift */,
 				DD2026ED2A10DD9100DFEB1E /* Greeting */,
 				DD8ACA212A101A1F00100F78 /* Main.storyboard */,
 				DD8ACA242A101A2400100F78 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2026FB2A10EB6A00DFEB1E /* Model.swift in Sources */,
 				DD2026F62A10E00700DFEB1E /* GreetingRouter.swift in Sources */,
 				DD8ACA1C2A101A1F00100F78 /* AppDelegate.swift in Sources */,
 				DD2026F82A10E00700DFEB1E /* GreetingViewController.swift in Sources */,
