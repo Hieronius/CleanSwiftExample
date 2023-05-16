@@ -40,6 +40,7 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     override func viewDidLoad() {
         super.viewDidLoad()
         GreetingConfigurator.shared.configure(with: self)
+        print("test commit 16.06.23")
     }
     
     // MARK: Routing
