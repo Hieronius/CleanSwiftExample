@@ -41,6 +41,7 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
         super.viewDidLoad()
         GreetingConfigurator.shared.configure(with: self)
         print("test commit 16.06.23")
+        print("test commit 17.06.23")
     }
     
     // MARK: Routing
