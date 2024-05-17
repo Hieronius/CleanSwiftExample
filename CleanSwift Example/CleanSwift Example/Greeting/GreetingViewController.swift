@@ -12,6 +12,8 @@
 
 import UIKit
 
+
+// protocol for ViewModel
 protocol GreetingDisplayLogic: class {
     func displayGreeting(viewModel: GreetingViewModel)
 }
