@@ -12,6 +12,7 @@
 
 import UIKit
 
+// Interface for logic
 protocol GreetingBusinessLogic {
     func ShowGreeting(request: GreetingRequest)
 }
