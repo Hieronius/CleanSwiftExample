@@ -17,6 +17,7 @@ protocol GreetingBusinessLogic {
     func ShowGreeting(request: GreetingRequest)
 }
 
+// Interface for storage
 protocol GreetingDataStore {
     var person: Person? { get }
 }
