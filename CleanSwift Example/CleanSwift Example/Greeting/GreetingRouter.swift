@@ -14,6 +14,7 @@
 // Don't need for this project but will be an example for bigger projects
 import UIKit
 
+// Router logic
 @objc protocol GreetingRoutingLogic {
     //func routeToSomewhere(segue: UIStoryboardSegue?)
 }
