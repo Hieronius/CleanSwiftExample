@@ -19,6 +19,7 @@ import UIKit
     //func routeToSomewhere(segue: UIStoryboardSegue?)
 }
 
+// Data passing
 protocol GreetingDataPassing {
     var dataStore: GreetingDataStore? { get }
 }
