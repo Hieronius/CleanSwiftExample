@@ -24,6 +24,7 @@ protocol GreetingDataPassing {
     var dataStore: GreetingDataStore? { get }
 }
 
+// Router
 class GreetingRouter: NSObject, GreetingRoutingLogic, GreetingDataPassing {
     
     weak var viewController: GreetingViewController?
