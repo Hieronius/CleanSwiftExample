@@ -29,6 +29,7 @@ class GreetingRouter: NSObject, GreetingRoutingLogic, GreetingDataPassing {
     
     // Hold View Controller
     weak var viewController: GreetingViewController?
+    // Hold Data Source
     var dataStore: GreetingDataStore?
     
     // MARK: Routing
