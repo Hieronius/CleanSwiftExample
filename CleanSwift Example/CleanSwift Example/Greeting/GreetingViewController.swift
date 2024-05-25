@@ -18,6 +18,7 @@ protocol GreetingDisplayLogic: class {
     func displayGreeting(viewModel: GreetingViewModel)
 }
 
+// Controller
 class GreetingViewController: UIViewController, GreetingDisplayLogic {
     
     @IBOutlet private var GreetingLabel: UITextField!
