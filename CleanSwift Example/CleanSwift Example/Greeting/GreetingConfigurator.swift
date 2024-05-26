@@ -12,6 +12,7 @@
 
 import UIKit
 
+// Module builder
 class GreetingConfigurator {
     static let shared = GreetingConfigurator()
     func configure(with viewController: GreetingViewController) {
