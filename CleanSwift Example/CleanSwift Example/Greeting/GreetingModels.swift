@@ -16,6 +16,7 @@ import UIKit
 typealias GreetingViewModel = Greeting.ShowGreeting.ViewModel
 // Response
 typealias GreetingResponse = Greeting.ShowGreeting.Response
+// Request
 typealias GreetingRequest = Greeting.ShowGreeting.Request
 
 
