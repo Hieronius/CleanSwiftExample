@@ -23,6 +23,7 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     
     @IBOutlet private var GreetingLabel: UITextField!
     
+    /// Interactor
     var interactor: GreetingBusinessLogic?
     var router: (NSObjectProtocol & GreetingRoutingLogic & GreetingDataPassing)?
     
