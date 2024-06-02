@@ -25,6 +25,7 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     
     /// Interactor
     var interactor: GreetingBusinessLogic?
+    /// Router
     var router: (NSObjectProtocol & GreetingRoutingLogic & GreetingDataPassing)?
     
     // MARK: Object lifecycle
