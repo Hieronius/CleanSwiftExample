@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Entity
+/// @Link /Documentation/Documentation
 struct Person {
     let name: String
     let surname: String
