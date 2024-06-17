@@ -88,7 +88,7 @@ class GreetingViewController: UIViewController, GreetingDisplayLogic {
     }
     
     func displayGreeting(viewModel: GreetingViewModel) {
-        GreetingLabel.text = viewModel.name
+        // GreetingLabel.text = viewModel.name
     }
     
     @IBAction func showGreetingPressed() {
